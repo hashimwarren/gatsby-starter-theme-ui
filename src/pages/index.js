@@ -9,15 +9,15 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Hashim Warren - Full Stack Marketer" />
-    <Styled.h1>Full Stack Marketer</Styled.h1>
-    <Styled.p>Welcome to your new Gatsby site.</Styled.p>
-    <Styled.p>Now go build something great.</Styled.p>
+    <SEO title="Hashim Warren" />
+    <Styled.h1>👋🏾 I'm Hashim Warren</Styled.h1>
+    <Styled.p>A Full Stack Marketer is concerned with marketing strategy, creative, and technology.</Styled.p>
+    <Styled.p>That best describes my work</Styled.p>
     <div sx={{ maxWidth: 300, marginBottom: [3] }}>
       <Image />
     </div>
     <Styled.p>
-      <Link to="/page-2/">Go to page 2</Link>
+      <Link to="/page-2/">page 2</Link>
     </Styled.p>
   </Layout>
 )
